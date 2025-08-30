@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #ffd6e8, #fff0f5);
+  text-align: center;
+  color: #4b2c46;
+}
+
+header {
+  padding: 20px;
+  background: #ff99cc;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  margin: 15px 0;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  color: #ff4081;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #d81b60;
+}
+
+.container {
+  padding: 30px;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: #ff4081;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+button:hover {
+  background: #d81b60;
+}
+
+h1, h2 {
+  color: #c2185b;
+}
+
+.love {
+  font-size: 50px;
+  animation: heartbeat 1.5s infinite;
+  color: #e91e63;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0.4;} 
+  to {opacity: 1;}
+}
